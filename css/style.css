@@ -1,0 +1,363 @@
+/* общие стили */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.center{
+    padding-right: calc(50% - 571px);
+    padding-left: calc(50% - 571px);
+}
+
+/* стили для header-a */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(236, 236, 236, 1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
+}
+
+/* стили для левой части header-a */
+
+.left_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link_logo{
+    display: flex;
+    justify-content: space-between;
+    width: 165px;
+    margin-right: 37px;
+}
+
+.text_brand{
+    margin-top: 16px;
+    font-size: 27px;
+    line-height: 27px;
+    font-weight: 300;
+    color: rgba(34, 34, 34, 1);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.letter_D{
+    font-weight: 900;
+    color: rgba(241, 109, 127, 1);
+}
+
+.form_header{
+    height: 38px;
+    display:flex;
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-radius: 3px;
+}
+
+.browse{
+    width: 87px;
+    text-align: center;
+    padding-top: 9px;
+    border-radius: 2px 0px 0px 2px;
+    background-image: -webkit-linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%);
+    background-image: -moz-linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%);
+    background-image: -o-linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%);
+    background-image: linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%);
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(34, 34, 34, 1);
+    letter-spacing: 0.03em;
+}
+
+.search{
+    width: 280px;
+    padding-left: 16px;
+    outline: none;
+    border: none;
+    border-left: 1px solid rgba(230, 230, 230, 1);
+    border-right: 1px solid rgba(230, 230, 230, 1);
+    
+}
+
+.button_header{
+    width: 38px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 0px 2px 2px 0px;
+}
+
+/* стили для правой части header-a */
+
+.right_header{
+    display: flex;
+    height: 38px;
+    align-items: flex-end;
+}
+
+.link_accaunt{
+    height: 38px;
+    background-color: rgba(241, 109, 127, 1);
+    margin-left: 23px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 15px;
+    padding: 11px 19px 0;
+}
+
+/* стили для навигационного меню */
+
+.nav{
+    display: flex;
+    height: 51px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: calc(50% - 340px);
+    padding-left: calc(50% - 340px);
+    list-style: none;
+}
+
+.link_menu{
+    padding: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+}
+
+.link_menu:hover{
+    border-bottom: 3px solid black;
+}
+
+/* стили для великолепной улыбки */
+
+.luxerious{
+    height: 613px;
+    padding-top: 276px;
+    background: url("../img/Luxerious/Smile_man.png") center center / cover no-repeat;
+}
+
+.text_block_luxerious{
+    width: 509px;
+    border-left: 12px solid rgba(241, 109, 127, 1);
+    padding-left: 12px;
+}
+
+.sup_text_luxerious{
+    font-size: 60px;
+    font-weight: 900;
+    color: rgba(34, 34, 34, 1);
+    text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 43px;
+    margin-bottom: 22px;
+}
+
+.sub_text_luxerious{
+    font-size: 39px;
+    font-weight: 900;
+    color: rgba(34, 34, 34, 1);
+    text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 30px;
+}
+
+.fashion{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(241, 109, 127, 1);
+    text-align: left;
+    letter-spacing: 0.03em;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+/* стили для блока c ребенком, мужчиной, женщиной */
+
+.four_bloks{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 98px;
+    padding-bottom: 100px;
+}
+
+.four_text_box{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 16px 18px;
+    display: inline-block;
+}
+
+.sup_four_text{
+    font-size: 18px;
+    font-weight: 900;
+    color: rgba(34, 34, 34, 1);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.sub_four_text{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(241, 109, 127, 1);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.man_blok {
+    width: 560px;
+    height: 542px;
+    background: url('../img/four_blok/man.png') center center / cover no-repeat;
+    margin-bottom: 20px;
+    padding-top: 26px;
+}
+
+.accesories_blok{
+    height: 261px;
+    width: 560px;
+    background: url('../img/four_blok/accesories.png') center center / cover no-repeat;
+    padding-top: 25px;
+}
+
+.women_blok{
+    height: 261px;
+    width: 560px;
+    background: url('../img/four_blok/women.png') center center / cover no-repeat;
+    margin-bottom: 20px;
+    padding-top: 26px;
+}
+
+.kids_blok{
+    width: 560px;
+    height: 542px;
+    background: url('../img/four_blok/kids.png') center center / cover no-repeat;
+    padding-top: 27px;
+}
+
+
+/* стили для популярных товаров */
+
+.fetured_blok{
+    margin-bottom: 113px;
+}
+
+.fetured_sup_text{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(34, 34, 34, 1);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 16px;
+}
+
+.fetured_sub_text{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(159, 159, 159, 1);
+    text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 54px;
+    margin-bottom: 52px;
+}
+
+.fetured_peple_box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    min-height: 752px;
+    align-content: space-between;
+    margin-bottom: 79px;
+
+}
+
+.fetured_peple_min_box{
+    width: 261px;
+    min-height: 342px;
+}
+
+.peple_img{
+    min-height: 280px;
+}
+
+.peple_info_text{
+    min-height: 62px;
+    padding-top: 19px;
+}
+
+.peple_sup_text{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(34, 34, 34, 1);
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+
+.peple_sub_text{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.peple_img_one_items{
+    background: url("../img/Fetured_items/one.png") center center / cover no-repeat;
+}
+
+.peple_img_two_items{
+    background: url("../img/Fetured_items/two_red_woman.png") center center / cover no-repeat;
+}
+
+.peple_img_three_items{
+    background: url("../img/Fetured_items/three_bearded_man.png") center center / cover no-repeat;
+}
+
+.peple_img_four_items{
+    background: url("../img/Fetured_items/four_dress_women.png") center center / cover no-repeat;
+}
+
+.peple_img_five_items{
+    background: url("../img/Fetured_items/five_dress_two_woman.png") center center / cover no-repeat;
+}
+
+.peple_img_six_items{
+    background: url("../img/Fetured_items/six_suit_man.png") center center / cover no-repeat;
+}
+
+.peple_img_seven_items{
+    background: url("../img/Fetured_items/seven_pants_man.png") center center / cover no-repeat;
+}
+
+.peple_img_eight_items{
+    background: url("../img/Fetured_items/eight_beach_guy.png") center center / cover no-repeat;
+}
+
+.all_product{
+    display: block;
+    height: 48px;
+    width: 212px;
+    margin: 0 auto;
+    background-color: rgba(241, 109, 127, 1);
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 14px 0;
+}
